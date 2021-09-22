@@ -9,8 +9,8 @@ const loadHome = () => {
 
   h1.textContent = "Enjoy Your Meal";
   h2.textContent = "Nothing brings people together like good food.";
-  img.setAttribute("src", "../dist/images/food.jpg");
-  stroke.setAttribute("src", "../dist/images/stroke.png");
+  img.setAttribute("src", "./images/food.jpg");
+  stroke.setAttribute("src", "./images/stroke.png");
 
   img.classList.add("image");
   stroke.classList.add("stroke");

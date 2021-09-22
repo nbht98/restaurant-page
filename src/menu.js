@@ -29,10 +29,10 @@ const loadMenu = () => {
   main.textContent = "";
 
   const foods = [
-    addFood("../dist/images/1.jpg", "Burrata e Ham", "10$"),
-    addFood("../dist/images/2.jpg", "Uni and Tapioca", "10$"),
-    addFood("../dist/images/3.jpg", "Cappelletti", "10$"),
-    addFood("../dist/images/5.jpg", "Pork Dumplings", "10$"),
+    addFood("./images/1.jpg", "Burrata e Ham", "10$"),
+    addFood("./images/2.jpg", "Uni and Tapioca", "10$"),
+    addFood("./images/3.jpg", "Cappelletti", "10$"),
+    addFood("./images/5.jpg", "Pork Dumplings", "10$"),
   ];
 
   for (let food of foods) {
