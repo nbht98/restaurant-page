@@ -51,13 +51,11 @@ const loadPage = () => {
 
   const bg = document.createElement("div");
   const header = createHeader();
-  const subbg = document.createElement("div");
 
   bg.classList.add("bg-image");
-  subbg.classList.add("sub-bg");
+  content.classList.add("sub-bg");
 
   body.appendChild(bg);
-  content.appendChild(subbg);
   content.appendChild(header);
   content.appendChild(main);
 };
